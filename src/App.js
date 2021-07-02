@@ -1,23 +1,92 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Video from "./components/Video";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="app__videos">
+        <Video
+          channel="paras_k211"
+          description="epic mern stack clone tiktok"
+          song="let me love you"
+          link="videos/1.mp4"
+          likes={111}
+          shares={22}
+          messages={572}
+        ></Video>
+        <Video
+          channel="paras_k211"
+          description="epic mern stack clone tiktok"
+          song="let me love you"
+          likes={111}
+          shares={22}
+          messages={572}
+          link="videos/2.mp4"
+        ></Video>
+        <Video
+          channel="paras_k211"
+          description="epic mern stack clone tiktok"
+          song="let me love you"
+          likes={111}
+          shares={22}
+          messages={572}
+          link="videos/3.mp4"
+        ></Video>
+        <Video
+          channel="paras_k211"
+          description="epic mern stack clone tiktok"
+          song="let me love you"
+          likes={111}
+          shares={22}
+          messages={572}
+          link="videos/4.mp4"
+        ></Video>
+        <Video
+          channel="paras_k211"
+          description="epic mern stack clone tiktok"
+          song="let me love you"
+          likes={111}
+          shares={22}
+          messages={572}
+          link="videos/5.mp4"
+        ></Video>
+        <Video
+          channel="paras_k211"
+          description="epic mern stack clone tiktok"
+          song="let me love you"
+          likes={111}
+          shares={22}
+          messages={572}
+          link="videos/6.mp4"
+        ></Video>
+        <Video
+          channel="paras_k211"
+          description="epic mern stack clone tiktok"
+          song="let me love you"
+          likes={111}
+          shares={22}
+          messages={572}
+          link="videos/7.mp4"
+        ></Video>
+        <Video
+          channel="paras_k211"
+          description="epic mern stack clone tiktok"
+          song="let me love you"
+          likes={111}
+          shares={22}
+          messages={572}
+          link="videos/8.mp4"
+        ></Video>
+        <Video
+          channel="paras_k211"
+          description="epic mern stack clone tiktok"
+          song="let me love you"
+          likes={111}
+          shares={22}
+          messages={572}
+          link="https://youtu.be/YBHVzxG8zK0"
+        ></Video>
+      </div>
     </div>
   );
 }
