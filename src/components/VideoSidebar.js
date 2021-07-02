@@ -22,7 +22,7 @@ const VideoSidebar = ({ likes, shares, messages }) => {
           ></FavoriteIcon>
         )}
 
-        <p>{!liked ? likes : likes + 1}</p>
+        <p>{!liked ? +likes : +likes + 1}</p>
       </div>
       <div className="videoSidebar__button">
         <MessageIcon fontSize="large"></MessageIcon>

@@ -23,6 +23,7 @@ const Video = ({
       setPlaying(true);
     }
   };
+
   return (
     <div className="video">
       <video
